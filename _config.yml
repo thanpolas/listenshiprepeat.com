@@ -14,32 +14,28 @@ exclude: [
     "assets/components/*"
 ]
 
-title : "SKGTech - Thessaloniki's Tech Community"
-email: hello@skgtech.io
-description: "A vibrant community of developers, designers, product people and entrepreneurs who live in Thessaloniki."
+title : "The Listen Ship Repeat Podcast"
+email: hello@listenshiprepeat.com
+description: "Listen Ship Repeat is a weekly podcast about the inner workings of startups and how to build them. It is performed by two veteran founders and web developers who have worked closely with many startups over the course of a decade and beyond."
 author :
-  name : "SKGTech Contributors"
-  email : "skg-developers@googlegroups.com"
-  github : "skgtech"
-  twitter : SKG_Tech
+  name : "Listen Ship Repeat"
+  email : "hello@listenshiprepeat.com"
   # feedburner : feedname
-githubrepo: "https://github.com/skgtech/skgtech.github.io"
 
-production_url : http://skgtech.io
+githubrepo: "https://github.com/thanpolas/listenshiprepeat.com"
 
-sass:
-    sass_dir: ./_scss
+production_url : http://listenshiprepeat.com
 
 # Open Graph data
 og:
-  app_id: "698696243515776"
-  title: "Thessaloniki tech Community"
-  site_name: "SKGTech"
+  app_id: "xxx"
+  title: "The Listen Ship Repeat Podcast"
+  site_name: "Listen Ship Repeat"
   image: "http://skgtech.io/assets/img/skgtech-social-logo.png"
 
 # Google Analytics
 analytics :
   provider : google
   google :
-    tracking_id : 'UA-41787746-3'
-    domain: 'skgtech.io'
+    tracking_id : 'UA-xxx-3'
+    domain: 'listenshiprepeat.com'
