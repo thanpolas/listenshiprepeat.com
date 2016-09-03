@@ -2,6 +2,7 @@ var gulp        = require('gulp');
 var browserify  = require('browserify');
 var browserSync = require('browser-sync');
 var concatCss = require('gulp-concat-css');
+var concat = require('gulp-concat');
 var source      = require('vinyl-source-stream');
 var buffer      = require('vinyl-buffer');
 var cp          = require('child_process');
@@ -65,6 +66,26 @@ gulp.task('css', function () {
   return gulp.src('_css/**/*.css')
     .pipe(concatCss('styles.css'))
     .pipe(gulp.dest('css/'));
+});
+gulp.task('concatJs', function() {
+  return gulp.src([
+    './_app/theme/jquery-1.11.2.min.js',
+    './_app/theme/jquery-ui-1.10.3.custom.min.js',
+    './_app/theme/jquery.elevateZoom-3.0.4.min.js',
+    './_app/theme/jquery.royalslider.min.js',
+    './_app/theme/mediaelement.min.js',
+    './_app/theme/hoverIntent.js',
+    './_app/theme/superfish.js',
+    './_app/theme/jquery.hoverdir.js',
+    './_app/theme/jquery.autosize.js',
+    './_app/theme/elastislide/modernizr.custom.17475.js',
+    './_app/theme/elastislide/jquerypp.custom.js',
+    './_app/theme/elastislide/jquery.elastislide.js',
+    './_app/theme/lib.js',
+  ])
+    .pipe(concat('theme-app.js'))
+    .pipe(gulp.dest('./_app/'));
+
 });
 
 /**

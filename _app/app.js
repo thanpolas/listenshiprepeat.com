@@ -19,4 +19,4 @@
  * @fileOverview Frontend application bootstrap file
  */
 
-require('./theme');
+require('./theme-app');
