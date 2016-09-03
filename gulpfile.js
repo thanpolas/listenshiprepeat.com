@@ -78,10 +78,6 @@ gulp.task('watch', function () {
     '_layouts/*.html',
     '_posts/*',
     '_includes/*.html',
-    'startups/*.html',
-    'submit-event/*.html',
-    'about/*.html',
-    'projects/*.html',
     '_data/*.yaml',
     'js/*.js',
     '_app/*.js'
