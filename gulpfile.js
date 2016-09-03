@@ -63,7 +63,7 @@ gulp.task('browserify', function () {
  */
 gulp.task('css', function () {
   return gulp.src('_css/**/*.css')
-    .pipe(concatCss('css/styles.css'))
+    .pipe(concatCss('styles.css'))
     .pipe(gulp.dest('css/'));
 });
 
