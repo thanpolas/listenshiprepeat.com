@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://skgtech.io/sitemap.xml
+Sitemap: http://listenshiprepeat.com/sitemap.xml

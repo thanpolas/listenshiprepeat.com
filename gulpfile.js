@@ -1,13 +1,13 @@
-var gulp        = require('gulp');
-var browserify  = require('browserify');
+var gulp = require('gulp');
+var browserify = require('browserify');
 var browserSync = require('browser-sync');
 var concatCss = require('gulp-concat-css');
 var concat = require('gulp-concat');
-var source      = require('vinyl-source-stream');
-var buffer      = require('vinyl-buffer');
-var cp          = require('child_process');
+var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
+var cp = require('child_process');
 var loadPlugins = require('gulp-load-plugins')();
-var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -31,7 +31,7 @@ gulp.task('jekyll-rebuild', ['browserify','jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['browserify','sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['browserify', 'jekyll-build'], function() {
   browserSync({
     server: {
       baseDir: '_site'
@@ -67,6 +67,10 @@ gulp.task('css', function () {
     .pipe(concatCss('styles.css'))
     .pipe(gulp.dest('css/'));
 });
+
+/**
+ * Concat JS files
+ */
 gulp.task('concatJs', function() {
   return gulp.src([
     './_app/theme/jquery-1.11.2.min.js',
@@ -109,4 +113,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browserify', 'browser-sync', 'watch']);
+gulp.task('default', ['browserify', 'css', 'browser-sync', 'watch']);

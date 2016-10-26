@@ -1,24 +1,24 @@
 FROM shawnzhu/ruby-nodejs:4.2.2
 
-MAINTAINER skgtech <hello@skgtech.io>
+MAINTAINER thanpolas <thanpolas@gmail.com>
 
 # Install gems
 RUN gem install jekyll:3.1.2
 
 # Install app npm packages
-RUN mkdir -p /app/skgtech.io/
+RUN mkdir -p /app/listenshiprepeat.com/
 
-WORKDIR /app/skgtech.io/
+WORKDIR /app/listenshiprepeat.com/
 
-ADD package.json /app/skgtech.io/
+ADD package.json /app/listenshiprepeat.com/
 
 RUN set progress=false && \
     npm install --progress=false
 
-ADD . /app/skgtech.io/
+ADD . /app/listenshiprepeat.com/
 
 # Expose ports to host
 EXPOSE 3000 3001
 
 # Default command
-CMD ["/app/skgtech.io/node_modules/.bin/gulp"]
+CMD ["/app/listenshiprepeat.com/node_modules/.bin/gulp"]
