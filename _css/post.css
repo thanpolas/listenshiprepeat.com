@@ -1,0 +1,37 @@
+.post {
+  margin-top: 50px;
+}
+
+.post-meta {
+  font-size: 12px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.post-meta span {
+  color: #888;
+}
+
+.post-title h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  color: #888;
+  font-size: 16px;
+}
+
+.post-share {
+  margin-top: 20px;
+}
+
+.share span {
+  margin-right: 10px;
+}
+
+.facebook {
+  position: absolute;
+}
