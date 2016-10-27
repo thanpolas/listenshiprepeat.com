@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="subnavbar">
+  <div class="container">
+    <h2>Contact us</h2>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-9">
+      <div class="section">
+        <h1>Drop us a line</h1>
+        <p>
+          Email us at <a href="mailto:hello@listenshiprepeat.com?subject=Hi, about that...">hello@listenshiprepeat.com</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="sidebar">
+        <div class="sidebar-item">
+          <h4 class="sidebar-item-title">First time here?</h4>
+          <div class="sidebar-item-content">
+            We are two seasoned developers and entreprenuers...
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="share">
+            <h4 class="sidebar-item-title">Find us on Twitter</h4>
+            <a href="https://twitter.com/ListenShipRepeat" class="twitter-follow-button" data-show-count="false">Follow @ListenShipRepeat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <h4 class="sidebar-item-title">Latest posts</h4>
+          <ul class="latest">
+            {% for post in site.posts limit:5 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
