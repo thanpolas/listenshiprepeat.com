@@ -4,7 +4,7 @@ layout: default
 
 <div class="subnavbar">
   <div class="container">
-    <h2>Episodes</h2>
+    <h2>Contact us</h2>
   </div>
 </div>
 
@@ -12,37 +12,12 @@ layout: default
 
   <div class="row">
     <div class="col-md-9">
-      <div class="summaries">
-
-        {% for post in site.posts %}
-
-        <article class="summary">
-
-          <h2><a href="{{ post.url }}">Episode {{ post.episodeNumber }}: {{ post.title }}</a></h2>
-          <p class="summary-content">
-            {{ post.description }}
-          </p>
-          <a href="{{ post.url }}" class="btn btn-default">Listen to it</a>
-
-          <div class="row summary-meta">
-            <div class="col-md-4">
-              Posted <span>{{ post.date | date: "%B %-d, %Y" }}</span>
-            </div>
-            <div class="col-md-8 text-right">
-              <ul class="tags">
-                {% for tag in post.tags %}
-                <li>{{ tag }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-
-        </article>
-
-        {% endfor %}
-
+      <div class="section">
+        <h1>Drop us a line</h1>
+        <p>
+          Email us at <a href="mailto:hello@listenshiprepeat.com?subject=Hi, about that...">hello@listenshiprepeat.com</a>
+        </p>
       </div>
-
     </div>
 
     <div class="col-md-3">

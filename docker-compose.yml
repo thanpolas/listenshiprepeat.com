@@ -3,10 +3,10 @@
 version: '2'
 services:
   web:
-    image: skgtech/website
-    container_name: skgtech_website
+    image: thanpolas/listenshiprepeat
+    container_name: listenshiprepeat
     volumes:
-      - ./:/app/skgtech.io/
+      - ./:/app/listenshiprepeat.com/
     ports:
       - "3000:3000"
       - "3001:3001"

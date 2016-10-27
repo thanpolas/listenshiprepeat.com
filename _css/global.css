@@ -1,0 +1,107 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 50px;
+}
+
+a {
+  color: #08afe6;
+}
+
+a:hover {
+  color: #148cb6;
+}
+
+.btn-default {
+  color: #777;
+  border-color: #ddd;
+}
+
+.btn-default:hover {
+  color: #08afe6;
+  background-color: #fff;
+  box-shadow: 0 2px 2px -1px #ddd;
+  border-color: #ddd;
+  position: relative;
+  top: -1px;
+}
+
+.btn-default:active {
+  background-color: #08afe6;
+  color: #fff;
+}
+
+.sidebar {
+  margin-top: 50px;
+}
+
+.sidebar-item {
+  margin-bottom: 40px;
+}
+
+.sidebar-item-title {
+  margin-bottom: 20px;
+}
+
+.sidebar-item-content {
+  color: #666;
+}
+
+.sidebar-item ul.tags {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-item .tags > li {
+  display: inline-block;
+  background-color: #fff;
+  color: #666;
+  border: 1px solid #08afe6;
+  font-size: 16px;
+  border-radius: 4px;
+  font-style: normal;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 3px;
+  margin-bottom: 7px;
+  transition: all 0.3s;
+}
+
+.sidebar-item .tags li:hover {
+  background-color: #08afe6;
+  color: #fff;
+}
+
+.sidebar-item ul.latest {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-item ul.latest > li {
+  position: relative;
+  background-color: #fff;
+  color: #222;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.sidebar-item ul.latest > li:before {
+  display: block;
+  position: absolute;
+  left: 2px;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  font-family: "FontAwesome";
+  content: "\f105";
+  color: #08afe6;
+}
+
+.section {
+  margin-top: 50px;
+}

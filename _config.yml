@@ -1,5 +1,4 @@
-
-permalink: /:categories/:title
+permalink: /episodes/:title/
 markdown: kramdown
 
 exclude: [
@@ -31,7 +30,7 @@ og:
   app_id: "xxx"
   title: "The Listen Ship Repeat Podcast"
   site_name: "Listen Ship Repeat"
-  image: "http://skgtech.io/assets/img/skgtech-social-logo.png"
+  image: "http://listenshiprepeat.com/assets/img/social-logo.png"
 
 # Google Analytics
 analytics :

@@ -1,6 +1,6 @@
 {
-  "name": "listenshiprepeat",
-  "version": "4.0.0",
+  "name": "listenshiprepeat.com",
+  "version": "1.0.0",
   "description": "listenshiprepeat.com website sources",
   "scripts": {},
   "repository": {
@@ -14,18 +14,18 @@
   },
   "homepage": "https://github.com/thanpolas/listenshiprepeat.com#readme",
   "devDependencies": {
-    "browser-sync": "^2.13.0",
-    "browserify": "^13.0.1",
+    "browser-sync": "2.13.0",
+    "browserify": "13.0.1",
     "calendarth": "0.0.6",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.6",
-    "jquery": "^2.2.4",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-concat-css": "2.3.0",
+    "gulp-load-plugins": "0.10.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "1.5.3",
+    "gulp-util": "3.0.6",
+    "jquery": "2.2.4",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0"
   }
 }
