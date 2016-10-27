@@ -1,9 +1,10 @@
 /* Bootstrap Nav Colors */
 .navbar-default {
-  background-color: #19afe4;
+  background-color: #08afe6;
   border-color: #169dcd;
-  height: 100px;
+  height: 150px;
   border-radius: 0;
+  margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
   color: #fff;
@@ -20,20 +21,19 @@
   text-transform: uppercase;
   font-weight: 300;
   font-family: 'Roboto';
-  transition: 0.3s border-bottom;
+  font-size: 12px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  /*background-color: #169dcd;*/
-  background-color: #19afe4;
-  border-bottom: 1px solid #fff;
+  background-color: #08afe6;
+  border-bottom: 2px solid #fff;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -80,5 +80,5 @@
 
 /* Custom extra classes */
 .navbar-height {
-  margin-top: 25px;
+  margin-top: 97px;
 }
