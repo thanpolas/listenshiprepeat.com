@@ -8,26 +8,54 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img src="/assets/img/logo-header.png" alt="Logo" height="70px" />
+        <img src="/assets/img/logo-header-white.png" alt="Logo" height="130px" />
       </a>
     </div>
     <div id="navbar" class="navbar-collapse collapse navbar-height">
       <ul class="nav navbar-nav navbar-right">
 
-        {% if page.url == '/' %}
+        {% if page.url == '/' or page.layout == 'post' %}
         <li class="active">
-          {% else %}
+        {% else %}
         <li>
         {% endif %}
-            <a href="/">Home</a>
+          <a href="/">Episodes</a>
         </li>
 
-        <li><a href="#">About</a></li>
-        <li><a href="#">Greatest Hits</a></li>
-        <li><a href="#">Archives</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">FAQ</a></li>
+        {% if page.url == '/about/' %}
+        <li class="active">
+        {% else %}
+        <li>
+        {% endif %}
+          <a href="/about">About</a>
+        </li>
+
+        {% if page.url == '/archive/' %}
+        <li class="active">
+        {% else %}
+        <li>
+        {% endif %}
+          <a href="/archive">Archive</a>
+        </li>
+
+        {% if page.url == '/contact/' %}
+        <li class="active">
+        {% else %}
+        <li>
+        {% endif %}
+          <a href="/contact">Contact</a>
+        </li>
+
+        {% if page.url == '/faq/' %}
+        <li class="active">
+        {% else %}
+        <li>
+        {% endif %}
+          <a href="/faq">FAQ</a>
+        </li>
+
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
+
   </div>
 </nav>
