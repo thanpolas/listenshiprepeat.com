@@ -26,22 +26,21 @@ gulp
 The default gulp task will:
 
 * Browserify the required modules.
-* Build `sass` and the Jekyll site.
+* Compile `css` and the Jekyll site.
 * Launch default Jekyll dev server with BrowserSync.
-* Watch HTML/SASS/JS/YAML folders and rebuild and reload the site on your browser.
+* Watch HTML/CSS/JS/YAML folders and rebuild and reload the site on your browser.
 
 More specific tasks:
 
 * `gulp browserify`: Browserifies whatever is in `_app` and produces `assets/js/app.js`
 * `gulp jekyll-build`: Builds jekyll
-* `gulp sass`: Builds sass sources, adds source comments and produces `_site/css/style.css` and `css/style.css` files.
+* `gulp css`: Concatenates all files from `_css` to `css/style.css`.
 
 ## Assets and pages locations
 
-* Edit styles inside `_sass/` folder. `/css/style.css` is auto generated and injected by BrowserSync.
+* Edit styles inside `_css/` folder. `/css/style.css` is auto generated and injected by BrowserSync.
 * The project's homepage is the file `index.html` in the root folder.
-* All the site's data are in the `_data/` folder.
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
