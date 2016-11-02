@@ -100,6 +100,9 @@ gulp.task('watch', function () {
   gulp.watch('_css/**/*', ['css']);
   gulp.watch([
     '*.html',
+    'archive/**/*.html',
+    'about/**/*.html',
+    'contact/**/*.html',
     '_layouts/*.html',
     '_posts/*',
     '_includes/*.html',

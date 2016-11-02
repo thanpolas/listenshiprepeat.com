@@ -1,3 +1,17 @@
+.about-image {
+  width: 150px;
+  border-radius: 100%;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.about-image-left {
+  float: left;
+}
+
+.about-image-right {
+  float: right;
+}
 footer {
   color: #888;
   position: absolute;
@@ -200,7 +214,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 600;
   font-family: 'Roboto';
   font-size: 12px;
 }

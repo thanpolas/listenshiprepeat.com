@@ -2,54 +2,17 @@
 layout: default
 ---
 
-<div class="subnavbar">
-  <div class="container">
-    <h2>About us</h2>
-  </div>
-</div>
-
-<div class="container">
-
-  <div class="row">
-    <div class="col-md-9">
-      <div class="section">
-        <h1>Hi</h1>
-        <p>
-          Hello, it is us!
-        </p>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="sidebar">
-        <div class="sidebar-item">
-          <h4 class="sidebar-item-title">First time here?</h4>
-          <div class="sidebar-item-content">
-            We are two seasoned developers and entreprenuers...
-          </div>
-        </div>
-
-        <div class="sidebar-item">
-          <div class="share">
-            <h4 class="sidebar-item-title">Find us on Twitter</h4>
-            <a href="https://twitter.com/ListenShipRepeat" class="twitter-follow-button" data-show-count="false">Follow @ListenShipRepeat</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
-        </div>
-
-        <div class="sidebar-item">
-          <h4 class="sidebar-item-title">Latest posts</h4>
-          <ul class="latest">
-            {% for post in site.posts limit:5 %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
+<div class="section">
+  <h1>Hello there!</h1>
+  <p>
+    <img class="about-image about-image-left" src="/assets/photos/thanpolas-new-crop-small.png" alt="Thanasis Polychronakis">
+    Both Thanasis and Dimitri are seasoned developers, each a domain expert at their respective field. They have both founded their own starts and know what it means to be in the startup grind looking for answers and advice.
+  </p>
+    <img class="about-image about-image-right" src="http://lorempixel.com/200/200" alt="Dimitris Tsiftsis">
+  <p>
+    We started the Listen Ship Repeat podcast because we saw a lack of understanding and appreciation for the challenged posed on the actual "building" part of a Startup. Having 20+ years of experience, each, working with startups, we are starting to see patterns and specific paths that can be followed on each occasion, stage and situation a startup finds itself.
+  </p>
+  <p>
+    In each episode we select a big challenge every startup will or has faced at some point and dive deep into it, providing simple digestible advice on how to navigate through the treacherous waters.
+  </p>
 </div>

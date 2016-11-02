@@ -1,0 +1,14 @@
+.about-image {
+  width: 150px;
+  border-radius: 100%;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.about-image-left {
+  float: left;
+}
+
+.about-image-right {
+  float: right;
+}
