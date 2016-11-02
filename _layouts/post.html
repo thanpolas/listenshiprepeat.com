@@ -1,110 +1,64 @@
 ---
 layout: default
 ---
+<div class="post">
+  <div class="row post-meta">
+    <div class="col-md-12 text-right">
+      Posted <span>{{ page.date | date: '%B %-d, %Y' }}</span>
+    </div>
+  </div>
 
-<div class="subnavbar">
-  <div class="container">
-    <h2>Episode {{ page.episodeNumber }}</h2>
+  <div class="row post-title">
+    <div class="col-md-12">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <audio src="{{ page.episodeFile }}" preload="auto"></audio>
+
+  <div class="row post-content">
+    <div class="col-md-12">
+      <p>
+        {{ content }}
+      </p>
+    </div>
+  </div>
+
+  <div class="row post-share">
+    <div class="col-md-12">
+      <h4>Share</h4>
+      <div class="post-share-content">
+        <div class="share">
+          <span class="twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="ListenShipRepeat" data-lang="en" data-related="ListenShipRepeat" data-counturl="{{ page.url | prepend: site.baseurl | prepend: site.url }}">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </span>
+          <span class="gplus">
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <div class="g-plus" data-action="share" data-annotation="bubble"></div>
+          </span>
+          <span class="facebook">
+            <div id="fb-root"></div>
+            <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count"></div>
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-9">
-      <div class="post">
-        <div class="row post-meta">
-          <div class="col-md-12 text-right">
-            Posted <span>{{ page.date | date: '%B %-d, %Y' }}</span>
-          </div>
-        </div>
-
-        <div class="row post-title">
-          <div class="col-md-12">
-            <h1>{{ page.title }}</h1>
-          </div>
-        </div>
-
-        <div class="row post-content">
-          <div class="col-md-12">
-            <p>
-              {{ content }}
-            </p>
-          </div>
-        </div>
-
-        <div class="row post-share">
-          <div class="col-md-12">
-            <h4>Share</h4>
-            <div class="post-share-content">
-              <div class="share">
-                <span class="twitter">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-via="ListenShipRepeat" data-lang="en" data-related="ListenShipRepeat" data-counturl="{{ page.url | prepend: site.baseurl | prepend: site.url }}">Tweet</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </span>
-                <span class="gplus">
-                  <script src="https://apis.google.com/js/platform.js" async defer></script>
-                  <div class="g-plus" data-action="share" data-annotation="bubble"></div>
-                </span>
-                <span class="facebook">
-                  <div id="fb-root"></div>
-                  <script>
-                  (function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-                    fjs.parentNode.insertBefore(js, fjs);
-                  }(document, 'script', 'facebook-jssdk'));
-                  </script>
-                  <div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count"></div>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="sidebar">
-        <div class="sidebar-item">
-          <h4 class="sidebar-item-title">Tags</h4>
-          <ul class="tags">
-            {% for tag in page.tags %}
-            <li>{{ tag }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="sidebar-item">
-          <div class="share">
-            <h4 class="sidebar-item-title">Share</h4>
-            <span class="twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-via="ListenShipRepeat" data-lang="en" data-related="ListenShipRepeat" data-counturl="{{ page.url | prepend: site.baseurl | prepend: site.url }}">Tweet</a>
-            </span>
-            <span class="gplus">
-              <div class="g-plus" data-action="share" data-annotation="bubble"></div>
-            </span>
-            <span class="facebook">
-              <div id="fb-root"></div>
-              <div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count"></div>
-            </span>
-          </div>
-        </div>
-
-        <div class="sidebar-item">
-          <h4 class="sidebar-item-title">Latest posts</h4>
-          <ul class="latest">
-            {% for post in site.posts limit:5 %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</div>
+<script src="/assets/vendor/audiojs/audio.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>

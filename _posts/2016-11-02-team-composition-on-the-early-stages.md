@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Welcome"
-description: "In this episode of Listen Ship Repeat, Thanasis and Dimitri talk about this and that."
-episodeNumber: '1'
-date: 2016-10-26 08:00:00 +0300
-tags : [startups, innovation]
+title: "Team composition on the early stages"
+description: "In the first episode of Listen Ship Repeat, Thanasis and Dimitri talk about team composition on the early stages of a startup."
+episodeNumber: "1"
+date: 2016-11-02 11:00:00 +0300
+tags : [startups, teams, developers]
+episodeFile: "https://s3.amazonaws.com/listenshiprepeat/001+-+Team+composition+in+the+early+stages.mp3"
 ---
 
-Nice to meet you Listen Ship Repeat listeners!
+## Episode Notes
 
-Debitis, sunt, blanditiis, ab deleniti officiis voluptatibus deserunt recusandae ipsam consequatur doloremque quisquam quibusdam quia nemo aperiam dolores expedita voluptas magnam. Perspiciatis, aperiam, sapiente dolorem assumenda velit necessitatibus consequatur repellendus accusantium quod architecto laudantium veniam odio nemo suscipit et enim esse pariatur laboriosam porro omnis? Magnam, est, amet provident voluptate consectetur porro ut cupiditate voluptatem vel architecto autem eius maxime dolorem eveniet beatae quia atque harum nisi debitis reiciendis rerum nulla unde ipsum dicta ipsam dolor voluptates. Animi, nihil sed maiores obcaecati assumenda numquam nostrum quibusdam nam!
+* [Thanasis Polychronakis](http://thanpol.as).
+* [Dimitris Tsiflitzis](https://twitter.com/sprimp).
