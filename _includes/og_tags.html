@@ -21,11 +21,9 @@
 <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image %}
-<meta content="{{ site.url }}/assets/img/posts/{{ page.image }}" property="og:image">
-{% else %}
-<meta content="{{ site.url }}/assets/img/skgtech-social.jpg" property="og:image">
-{% endif %}
+
+<meta content="{{ site.url }}/assets/photos/listen-ship-repeat-logo.jpg" property="og:image">
+
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
