@@ -6,6 +6,8 @@ episodeNumber: "1"
 date: 2016-11-02 11:00:00 +0300
 tags : [startups, teams, developers]
 episodeFile: "https://s3.amazonaws.com/listenshiprepeat/001+-+Team+composition+in+the+early+stages.mp3"
+podcastLength: "43:06"
+podcastSizeBytes: "65826244"
 ---
 
 ## Episode Description
