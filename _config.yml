@@ -14,12 +14,15 @@ exclude: [
 ]
 
 title : "The Listen Ship Repeat Podcast"
+podcastSubtitle: "Listen Ship Repeat is a weekly podcast about the inner workings of startups and how to build them."
 email: hello@listenshiprepeat.com
 description: "Listen Ship Repeat is a weekly podcast about the inner workings of startups and how to build them. It is performed by two veteran founders and web developers who have worked closely with many startups over the course of a decade and beyond."
+copyright: "CC4 Thanasis Polychronakis, Dimitri Tsiflitzis"
 author :
   name : "Listen Ship Repeat"
   email : "hello@listenshiprepeat.com"
   # feedburner : feedname
+managerName: "Thanasis Polychronakis, Dimitri Tsiflitzis"
 
 githubrepo: "https://github.com/thanpolas/listenshiprepeat.com"
 
