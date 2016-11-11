@@ -27,7 +27,7 @@ managerName: "Thanasis Polychronakis, Dimitri Tsiflitzis"
 githubrepo: "https://github.com/thanpolas/listenshiprepeat.com"
 
 production_url : http://listenshiprepeat.com
-
+itunesImage: "http://listenshiprepeat.com/assets/photos/listen-ship-repeat-logo-3k.jpg"
 # Open Graph data
 og:
   app_id: "xxx"

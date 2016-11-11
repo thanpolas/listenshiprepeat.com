@@ -22,7 +22,7 @@
       <itunes:name>{{ site.managerName}}</itunes:name>
       <itunes:email>{{ site.author.email}}</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ site.og.image }}"/>
+    <itunes:image href="{{ site.itunesImage }}"/>
     <itunes:category text="Startups" />
     <itunes:category text="Technology" />
     {% for post in site.posts %}
