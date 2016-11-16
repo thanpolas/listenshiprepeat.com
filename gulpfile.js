@@ -99,6 +99,7 @@ gulp.task('concatJs', function() {
 gulp.task('watch', function () {
   gulp.watch('_css/**/*', ['css']);
   gulp.watch([
+    '*.xml',
     '*.html',
     'archive/**/*.html',
     'about/**/*.html',
