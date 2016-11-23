@@ -24,7 +24,7 @@ In this episode Thanasis and Dimitri talk about how to setup project management 
 
 ## Transcript
 
-**Thanasis** [00.13.00]: Are you an entrepreneur? A designer? A developer? Never before has it been easier to get your new venture off the ground. Whether you're just getting started, or have already begun your journey, you've come to the right place. In each episode we will dive into a new challenge, breaking it down into simple digestible terms. I’m DImitri.
+**Thanasis** [00.13.00]: Are you an entrepreneur? A designer? A developer? Never before has it been easier to get your new venture off the ground. Whether you're just getting started, or have already begun your journey, you've come to the right place. In each episode we will dive into a new challenge, breaking it down into simple digestible terms. I’m Thanasis.
 
 **Dimitri** [00.00.33]: ...And I’m Dimitri.
 
