@@ -17,4 +17,7 @@ In this episode Thanasis and Dimitri talk about how to hire your first developer
 
 ## Episode Notes
 
-* []()
+* [meetup.com](https://www.meetup.com/) For finding local developer meetups.
+* [github.com](https://www.github.com/) For checking out developer's coding profiles.
+* [stackoverflow.com](http://stackoverflow.com/) For checking out developer's QA skills.
+
