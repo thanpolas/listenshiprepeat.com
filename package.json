@@ -14,10 +14,8 @@
   },
   "homepage": "https://github.com/thanpolas/listenshiprepeat.com#readme",
   "devDependencies": {
-    "audiojs": "^0.1.0",
     "browser-sync": "2.13.0",
     "browserify": "13.0.1",
-    "calendarth": "0.0.6",
     "gulp": "3.9.1",
     "gulp-concat": "2.6.0",
     "gulp-concat-css": "2.3.0",
@@ -28,5 +26,8 @@
     "jquery": "2.2.4",
     "vinyl-buffer": "1.0.0",
     "vinyl-source-stream": "1.1.0"
+  },
+  "dependencies": {
+    "mediaelement": "2.23.4"
   }
 }
