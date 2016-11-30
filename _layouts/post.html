@@ -14,7 +14,7 @@ layout: default
     </div>
   </div>
 
-  <audio src="{{ page.episodeFile }}" preload="auto"></audio>
+  <audio src="{{ page.episodeFile }}" class="mejs-player" data-mejsoptions='{"alwaysShowControls": true}'></audio>
 
   <div class="row post-content">
     <div class="col-md-12">
@@ -56,9 +56,3 @@ layout: default
   </div>
 </div>
 
-<script src="/assets/vendor/audiojs/audio.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-  audiojs.events.ready(function() {
-    var as = audiojs.createAll();
-  });
-</script>
