@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Validating and Exposing your Startup"
-description: "In this episode Thanasis and Dimitri talk about how validating and exposing your startup."
+description: "In this episode Thanasis and Dimitri talk about how to validate and expose your startup."
 episodeNumber: "4"
 date: 2016-11-30 11:00:00 +0300
 tags : [startups, validation, idea, expose, publicity]
@@ -12,7 +12,7 @@ podcastSizeBytes: "79910415"
 
 ## Episode Description
 
-In this episode Thanasis and Dimitri talk about how validating and exposing your startup.
+In this episode Thanasis and Dimitri talk about how to validate and expose your startup.
 
 ## Episode Notes
 
