@@ -5,7 +5,7 @@ description: "In this episode Thanasis and Dimitri talk about how validating and
 episodeNumber: "4"
 date: 2016-11-30 11:00:00 +0300
 tags : [startups, validation, idea, expose, publicity]
-episodeFile: "https://s3.amazonaws.com/listenshiprepeat/004-validating-and-exposing-your-startup.mp3"
+episodeFile: "http://tracking.feedpress.it/link/16015/4879769/004-validating-and-exposing-your-startup.mp3"
 podcastLength: "51:28"
 podcastSizeBytes: "79910415"
 ---
