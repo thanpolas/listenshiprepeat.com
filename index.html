@@ -5,7 +5,7 @@ layout: default
 <div class="summaries">
   {% for post in site.posts %}
   <article class="summary">
-    <h2><a href="{{ post.url }}">Episode {{ post.episodeNumber }}: {{ post.title }}</a></h2>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p class="summary-content">
       {{ post.description }}
     </p>
