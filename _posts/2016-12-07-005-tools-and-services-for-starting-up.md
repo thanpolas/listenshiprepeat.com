@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Tools and Services for starting up"
+title: "005. Tools and Services for starting up"
 description: "In this episode Thanasis and Dimitri talk about tools and services for starting up."
-episodeNumber: "5"
 date: 2016-12-07 11:00:00 +0300
 tags : [startups, tools, services, essentials]
 episodeFile: "http://tracking.feedpress.it/link/16015/4922326/005-tools-and-services-for-starting-up.mp3"
