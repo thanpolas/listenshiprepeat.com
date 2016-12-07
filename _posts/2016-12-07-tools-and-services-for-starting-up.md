@@ -5,7 +5,7 @@ description: "In this episode Thanasis and Dimitri talk about tools and services
 episodeNumber: "5"
 date: 2016-12-07 11:00:00 +0300
 tags : [startups, tools, services, essentials]
-episodeFile: "https://s3.amazonaws.com/listenshiprepeat/005-tools-and-services-for-starting-up.mp3"
+episodeFile: "http://tracking.feedpress.it/link/16015/4922326/005-tools-and-services-for-starting-up.mp3"
 podcastLength: "35:18"
 podcastSizeBytes: "53630921"
 ---
