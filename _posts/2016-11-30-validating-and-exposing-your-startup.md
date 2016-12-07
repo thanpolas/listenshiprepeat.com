@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Validating and Exposing your Startup"
+title: "004. Validating and Exposing your Startup"
 description: "In this episode Thanasis and Dimitri talk about how to validate and expose your startup."
-episodeNumber: "4"
 date: 2016-11-30 11:00:00 +0300
 tags : [startups, validation, idea, expose, publicity]
 episodeFile: "http://tracking.feedpress.it/link/16015/4879769/004-validating-and-exposing-your-startup.mp3"

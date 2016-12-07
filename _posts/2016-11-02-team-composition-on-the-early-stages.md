@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Team composition on the early stages"
+title: "001. Team composition on the early stages"
 description: "In the first episode of Listen Ship Repeat, Thanasis and Dimitri talk about team composition on the early stages of a startup."
-episodeNumber: "1"
 date: 2016-11-02 11:00:00 +0300
 tags : [startups, teams, developers]
 episodeFile: "http://tracking.feedpress.it/link/16015/4851126/001+-+Team+composition+in+the+early+stages.mp3"
