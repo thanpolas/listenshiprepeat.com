@@ -18,4 +18,5 @@ In this episode Thanasis and Dimitri talk about how to validate and expose your 
 * [Traction the book](http://tractionbook.com/)
 * [Netscan - Client side diagnostics](https://www.netscan.co)
 * [Every Time Zone](http://everytimezone.com/)
+* [How to write a press release](http://www.wikihow.com/Write-a-Press-Release)
 
