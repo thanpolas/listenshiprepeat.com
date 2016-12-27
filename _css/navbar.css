@@ -76,6 +76,9 @@
     color: #fff;
     background-color: #169dcd;
   }
+  .navbar-nav {
+    margin-top: 1px;
+  }
 }
 
 /* Custom extra classes */
