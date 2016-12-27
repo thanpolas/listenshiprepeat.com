@@ -76,9 +76,12 @@
     color: #fff;
     background-color: #169dcd;
   }
-  .navbar-nav {
-    margin-top: 1px;
-  }
+}
+.navbar-default .navbar-nav {
+  margin-top: 1px;
+}
+.navbar-default .nav > li {
+  background-color: #08afe6;
 }
 
 /* Custom extra classes */
