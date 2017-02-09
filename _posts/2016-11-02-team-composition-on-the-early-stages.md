@@ -101,13 +101,10 @@ Dimitris [00.13.43: Nice! That gives a nice overview, so let’s move into more 
 
 **Thanasis** [00.41.54]: Yeah, right! That’s the idea here. So, thank you for listening! Excuse any mishaps, this is our first episode. We are going to get better and we hope we hear back from you, of what you think and if you have any questions.
 
-**Dimitri** [00.42.06]: Yes! So send us your questions by calling us on +1 866-370-5050 from anywhere. Email us at [hello@listenshiprepeat.com](mailto:hello@listenshiprepeat.com). Subscribe on iTunes by searching for our podcast or visit our website [www.listenshiprepeat.com](www.listenshiprepeat.com). If you like what you listened to, we would love to see you come back. You can leave a review for us on iTunes, the more stars the better. You don’t have to write a review. You can just give us stars. That helps our podcast be discovered much easier, as we move up in the rankings.
+**Dimitri** [00.42.06]: Yes! So send us your questions by calling us on +1 866-370-5050 from anywhere. Email us at [hello@listenshiprepeat.com](mailto:hello@listenshiprepeat.com). Subscribe on iTunes by searching for our podcast or visit our website [www.listenshiprepeat.com](http://www.listenshiprepeat.com). If you like what you listened to, we would love to see you come back. You can leave a review for us on iTunes, the more stars the better. You don’t have to write a review. You can just give us stars. That helps our podcast be discovered much easier, as we move up in the rankings.
 
 **Thanasis** [00.42.50]: Do that!
 
 **Dimitri** [00.42.51]: Indeed! So, thank you for listening and goodbye.
 
 **Thanasis** [00.42.54]: Goodbye.
-
-
-

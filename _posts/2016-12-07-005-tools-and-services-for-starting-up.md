@@ -213,6 +213,6 @@ In this episode Thanasis and Dimitri talk about tools and services for starting 
 
 **Thanasis** [00.34.06]: Yeah, that’s it!
 
-**Dimitri** [00.34.08]: So, please send us your questions by calling us on 8663705050 from anywhere or you can email us hello@listenshiprepeat.com, subscribe on iTunes by searching for our podcast, feel free to go in there and drop us some stars or a review if you want, this helps us climb up higher in our respective categories and helps us make more episodes. Our website www.listenshiprepeat.com. So until next time, thank you for listening tonight and from both of us, Goodbye!
+**Dimitri** [00.34.08]: So, please send us your questions by calling us on 8663705050 from anywhere or you can email us [hello@listenshiprepeat.com](mailto:hello@listenshiprepeat.com), subscribe on iTunes by searching for our podcast, feel free to go in there and drop us some stars or a review if you want, this helps us climb up higher in our respective categories and helps us make more episodes. Our website [www.listenshiprepeat.com](http://www.listenshiprepeat.com). So until next time, thank you for listening tonight and from both of us, Goodbye!
 
 **Thanasis** [00.34.55]: See you next time, Goodbye!
