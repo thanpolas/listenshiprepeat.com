@@ -4,7 +4,7 @@ title: "014. Starting up on the mobile platform"
 description: "In this episode Thanasis interviews Stelios about starting up on the mobile platform."
 date: 2017-03-15 11:00:00 +0300
 tags : [startups, mobile, horizon, challenges]
-episodeFile: "https://s3.amazonaws.com/listenshiprepeat/014-starting-up-on-the-mobile-platform.mp3"
+episodeFile: "http://tracking.feedpress.it/link/16015/5511912/014-starting-up-on-the-mobile-platform.mp3"
 podcastLength: "38:18"
 podcastSizeBytes: "75681965"
 ---
