@@ -13,6 +13,9 @@ podcastSizeBytes: "56979218"
 
 In this episode Dimitri interviews Petros about setting up support for your operation.
 
+* Petros' website: [amiridis.net](http://amiridis.net/)
+* Petros on Twitter: [@amiridis](https://twitter.com/amiridis)
+
 ## Transcript
 
 **Dimitri** [00.00.05]: Are you an entrepreneur, a designer, a developer, never before has it been easier to get your new venture off the ground. Whether you’re just getting started or have already begun your journey, you’ve come to the right place. In each episode we will dive into a new challenge breaking it down into simple, digestible terms. I’m Dimitri...
