@@ -9,6 +9,10 @@ podcastLength: "36:48"
 podcastSizeBytes: "71535430"
 ---
 
+## Episode Notes
+
+* [Getting to Swift 3 - Airbnb Engineering & Data Science](https://medium.com/airbnb-engineering/getting-to-swift-3-at-airbnb-79a257d2b656)
+
 ## Episode Description
 
 In this episode Thanasis and Dimitri talk about when to rewrite your application.
