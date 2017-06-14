@@ -10,6 +10,10 @@
 
 This project was built using [Jekyll](http://jekyllrb.com/), you don't need to be familiar with these tools to do most of the tasks.
 
+## Publishing new episode
+
+[Checklist](https://gist.github.com/sirodoht/b83a746f6bd93c2ae3b19580518eb0f3)
+
 ## Installing the project
 
 
