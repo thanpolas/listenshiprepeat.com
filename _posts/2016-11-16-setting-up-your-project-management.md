@@ -4,7 +4,7 @@ title: "002. Project Management for the early stages of your startup"
 description: "In this episode Thanasis and Dimitri talk about how to setup project management for your startup at the early stages."
 date: 2016-11-16 11:00:00 +0300
 tags : [startups, teams, project management, management, trello, kanban]
-episodeFile: "http://tracking.feedpress.it/link/16015/4851124/002-setting-up-your-project-management.mp3"
+episodeFile: "https://s3.amazonaws.com/listenshiprepeat/002-setting-up-your-project-management.mp3"
 podcastLength: "33:24"
 podcastSizeBytes: "51453791"
 ---
