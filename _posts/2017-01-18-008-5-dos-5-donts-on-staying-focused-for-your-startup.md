@@ -4,7 +4,7 @@ title: "008. 5 Do’s & 5 Don’ts on Staying Focused for your startup"
 description: "In this episode Thanasis and Dimitri talk about how to stay focused."
 date: 2017-01-18 11:00:00 +0300
 tags : [startups, staying focused, business, distracted, vision, goals]
-episodeFile: "http://tracking.feedpress.it/link/16015/5162602/008-5-dos-5-donts-on-staying-focused-for-your-startup.mp3"
+episodeFile: "https://s3.amazonaws.com/listenshiprepeat/008-5-dos-5-donts-on-staying-focused-for-your-startup.mp3"
 podcastLength: "39:56"
 podcastSizeBytes: "61842317"
 ---
@@ -144,7 +144,7 @@ Now, next do is to find the path of least resistance and I found that to be appl
 
 **Dimitri** [00.36.45]: Absolutely! Orchestra conductor it’s a really nice analogy, you got a little stick, you point it to people, you actually literally giving them a rhythm and they beautiful violinists players but when they begin, when they end and how fast it depends on you, the conductor.
 
-**Thanasis** [00.37.09]: So, that wraps us up for today, let’s do a small recap on the five don’ts.  
+**Thanasis** [00.37.09]: So, that wraps us up for today, let’s do a small recap on the five don’ts.
 Don’t pursue every single idea.
 Don’t overreact when the times are tough.
 Don’t spread your team theme.
